@@ -88,28 +88,28 @@ def run_stroop_test():
     if not st.session_state.stroop_started:
 
         st.subheader("📋 Instructions")
-st.markdown("""
+        st.markdown("""
 
-In this task, you will see words displayed in different colors.
+        In this task, you will see words displayed in different colors.
 
-- Identify the **COLOR of the text**, not the word itself.
-- Total **42 questions**
-- Each question is shown for **5 seconds**
-- Includes both **congruent** and **incongruent** trials
+        - Identify the **COLOR of the text**, not the word itself.
+        - Total **42 questions**
+        - Each question is shown for **5 seconds**
+        - Includes both **congruent** and **incongruent** trials
 
-### ⚖️ Guidance
-- Focus only on the **text color**
-- Respond **quickly and accurately**
+        ### ⚖️ Guidance
+        - Focus only on the **text color**
+        - Respond **quickly and accurately**
 
-### 🧩 Cognitive Domains Assessed
-- **Selective Attention**
-- **Cognitive Control (Inhibitory Control)**
-- **Processing Speed**
+        ### 🧩 Cognitive Domains Assessed
+        - **Selective Attention**
+        - **Cognitive Control (Inhibitory Control)**
+        - **Processing Speed**
 
----
+        ---
 
-Click below when you are ready to begin.
-""")
+        Click below when you are ready to begin.
+        """)
 
         if st.button("▶️ Start Test"):
 
